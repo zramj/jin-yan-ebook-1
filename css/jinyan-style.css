@@ -201,6 +201,9 @@ span.price-text {
     color: #009688;
 }
 .hy-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,6 +217,9 @@ span.price-text {
 
 .page8-imgs-content {
     padding: 2em 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +269,7 @@ span.price-text {
 
 .page-bg-1, .page-bg-2, .page-bg-3, .page-bg-4, .page-bg-5 {
     background-image: url(../img/bg-1.png),
-                      url(../img/clover-bg-notext.png);
+                      url(../img/clover-bg-text.png);
     background-repeat: no-repeat,
                        no-repeat;
     background-position: right,
@@ -276,7 +282,7 @@ span.price-text {
 
 .page-bg-2 {
     background-image: url(../img/bg-2.png),
-                      url(../img/clover-bg-notext.png);
+                      url(../img/clover-bg-text.png);
     background-position: left,
                           center 300px;
 }
@@ -305,6 +311,9 @@ span.price-text {
 }
 
 .end-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     align-items: center;
