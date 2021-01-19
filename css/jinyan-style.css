@@ -209,6 +209,8 @@ span.price-text {
     align-items: center;
     width: 90%;
     margin: auto;
+    flex: 1 0 0%;
+    max-width: 100%;
 }
 .hy-content p {
     padding: 0;
