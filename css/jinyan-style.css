@@ -127,7 +127,7 @@ th {
 .subject-content ul {
     padding-left: 40px;
     font-size: 1.3em;
-    font-weight: lighter;
+    font-weight: 300;
 }
 .subject-content ul li {
     margin: 1em 0;
