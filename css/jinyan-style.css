@@ -215,6 +215,12 @@ span.price-text {
 .hy-content p {
     padding: 0;
     margin-right: 2em;
+    width: 60%;
+}
+
+.hy-content > div img {
+    width: auto;
+    max-width: 100%;
 }
 
 .page8-imgs-content {
@@ -335,6 +341,9 @@ span.price-text {
     .rignt-bg::after, .wrong-bg::after {
         background-size: 20%;
     }
+    .hy-content > div {
+        width: 40%;
+    }
 }
 @media (max-width: 600px) {
     .content h2 {
@@ -361,6 +370,7 @@ span.price-text {
     .hy-content p {
         margin-right: 0;
         margin-bottom: 1em;
+        width: 100%;
     }
     .page8-imgs-content {
         flex-wrap: wrap;
