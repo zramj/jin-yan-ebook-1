@@ -372,6 +372,11 @@ span.price-text {
         margin-bottom: 1em;
         width: 100%;
     }
+    .hy-content > div {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
     .page8-imgs-content {
         flex-wrap: wrap;
         padding-top: 1em;
