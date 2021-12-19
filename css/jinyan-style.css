@@ -200,6 +200,9 @@ span.price-text {
     font-weight: normal;
     color: #009688;
 }
+.notice-text {
+    color: #e91e63;
+}
 .hy-content {
     display: -webkit-box;
     display: -webkit-flex;
@@ -350,7 +353,7 @@ span.price-text {
         font-size: 2em;
     }
     h3 {
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin: 1em 1em 0;
     }
     .subject-content {
@@ -416,5 +419,51 @@ span.price-text {
     .page-bg-1, .page-bg-2, .page-bg-3, .page-bg-4, .page-bg-5 {
         background-size: contain,
                          300px;
+    }
+}
+
+/* 設定 subject-conten 的順序*/ 
+.page-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.page-flex .subject-content {
+    width: 45%;
+    margin-bottom: 0;
+}
+@media (max-width: 414px) {
+    .page-flex .subject-content {
+        width: 48%;
+        font-size: small;
+    }
+    .subject-content {
+        margin-top: 2em;
+        padding: 0.9em;
+    }
+    .page-bg-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .page-bg-1 .item-1 {
+        order: 1;
+    }
+    .page-bg-1 .item-2 {
+        order: 3;
+    }
+    .page-bg-1 .item-3 {
+        order: 2;
+    }
+    .page-bg-1 .item-4 {
+        order: 4;
+    }
+    .page-bg-1 .item-5 {
+        order: 5;
+    }
+    .page-bg-1 .item-6 {
+        order: 6;
+    }
+    .page-bg-1 .content p.step-text {
+        padding: 5px 5px;
     }
 }
