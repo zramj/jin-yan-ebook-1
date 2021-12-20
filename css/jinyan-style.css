@@ -432,6 +432,14 @@ span.price-text {
     width: 45%;
     margin-bottom: 0;
 }
+.page-flex .subject-content .price-cotent {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
+.page-bg-1 .subject-content .step-text {
+    text-align: left;
+}
 @media (max-width: 768px) {
     .page-bg-1 .item-1 {
         order: 1;
@@ -451,8 +459,11 @@ span.price-text {
     .page-bg-1 .item-6 {
         order: 6;
     }
+    .page-bg-1 .subject-content .items-content {
+        padding-bottom: 2.5em;
+    }    
 }
-@media (max-width: 414px) {
+@media (max-width: 480px) {
     .page-flex .subject-content {
         width: 48%;
         font-size: small;
@@ -465,8 +476,13 @@ span.price-text {
         padding-left: 10px;
         padding-right: 10px;
     }
-
-    .page-bg-1 .content p.step-text {
+    .page-bg-1 .subject-content .step-text {
         padding: 5px 5px;
+        letter-spacing: 0.5px;
     }
+    .page-flex .subject-content .price-cotent {
+        bottom: 1em;
+        right: 1em;
+    }
+
 }
